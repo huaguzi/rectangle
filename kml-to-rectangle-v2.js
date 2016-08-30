@@ -1,3 +1,5 @@
+// 遇到任何问题，请及时联系我: huazi.snow@gmail.com
+
 var fs = require('fs');
 var tj = require('togeojson');
 var geolib = require('geolib');
