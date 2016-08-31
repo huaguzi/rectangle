@@ -7,13 +7,13 @@
   假设采集后的数据为**07月-19日-17时-2016-(S30惠深沿海高速)深圳市罗湖区莲塘街道--惠州市惠东县稔山镇.txt**
   转换为kml格式
 
-```javascript 
-node txt-to-kml-version-2.js -f 07月-19日-17时-2016-(S30惠深沿海高速)深圳市罗湖区莲塘街道--惠州市惠东县稔山镇.txt
-```
-```ruby
-ruby txt-to-kml-version-2.rb -f 07月-19日-17时-2016-(S30惠深沿海高速)深圳市罗湖区莲塘街道--惠州市惠东县稔山镇.txt
-```
+  ```javascript 
+  node txt-to-kml-version-2.js -f 07月-19日-17时-2016-(S30惠深沿海高速)深圳市罗湖区莲塘街道--惠州市惠东县稔山镇.txt
+  ```
+  ```ruby
+  ruby txt-to-kml-version-2.rb -f 07月-19日-17时-2016-(S30惠深沿海高速)深圳市罗湖区莲塘街道--惠州市惠东县稔山镇.txt
+  ```
 3. 根据Google earth画出的轨迹，根据某种算法计算出矩形，并画出生成kml
-```javascript
-node kml-to-rectangle-v2.js -f example.kml
-```
+  ```javascript
+  node kml-to-rectangle-v2.js -f example.kml
+  ```
